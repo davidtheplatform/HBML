@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "hbml_davidtheplatform"
+version = "0.0.1"
+authors = [
+  { name="David", email="49566036+davidtheplatform@users.noreply.github.com" },
+]
+description = "Parse HBML data with Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/davidtheplatform/HBML"
+"Bug Tracker" = "https://github.com/davidtheplatform/HBML/issues"
